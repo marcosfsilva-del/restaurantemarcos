@@ -39,7 +39,7 @@ jobs:
         run: npm install --package-lock-only
 
       - name: Instalar dependências
-        run: npm ci
+        run: npm install
 
       - name: Rodar lint
         run: npm run lint

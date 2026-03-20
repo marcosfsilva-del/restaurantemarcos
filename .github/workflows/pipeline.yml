@@ -92,5 +92,5 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=marmitatech-pro
-            -Dsonar.projectName="MarmitaTech Pro"
+            -Dsonar.projectName="MarmitaTech Prof"
             -Dsonar.sources=.

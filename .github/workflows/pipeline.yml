@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "18"
-          cache: "npm"
+          package-manager-cache: false
 
       - name: Gerar lockfile temporário
         run: npm install --package-lock-only
@@ -44,7 +44,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "18"
-          cache: "npm"
+          package-manager-cache: false
 
       - name: Gerar lockfile temporário
         run: npm install --package-lock-only

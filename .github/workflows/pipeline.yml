@@ -180,7 +180,7 @@ jobs:
             cd /home/${{ secrets.EC2_USER }}/deploy_2222
 
             # Força o pull da nova imagem e sobe o container do aluno
-            docker compose -f docker-compose-2222.yml pull
-            docker compose -f docker-compose-2222.yml up -d
+            sudo docker compose -f docker-compose-2222.yml pull
+            sudo docker compose -f docker-compose-2222.yml up -d
 
             echo "✅ Deploy do aluno 2222 finalizado com sucesso!"

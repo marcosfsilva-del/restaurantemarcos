@@ -1,6 +1,6 @@
 services:
   app:
-    image: <IMAGEMDOALUNO>
+    image: jenrique138/app:staging
     container_name: <NOMEDOCONTAINERDOALUNO>
     ports:
       - "<PORTADOALUNO>:3000"

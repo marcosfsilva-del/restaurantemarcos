@@ -6,6 +6,7 @@ services:
       - "<PORTADOALUNO>:3000"
     environment:
       DB_HOST: mysql-infra
+      DB_PORT: 3306
       DB_USER: root
       DB_PASS: password
       DB_NAME: <bancodoaluno>

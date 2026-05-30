@@ -5,10 +5,12 @@ services:
     ports:
       - "<PORTADOALUNO>:3000"
     environment:
-      DB_HOST: 54.89.88.5
+      DB_HOST: mysql-infra
       DB_USER: root
       DB_PASS: password
       DB_NAME: <bancodoaluno>
+    networks:
+      - rede_alunos
 networks:
   rede_alunos:
     external: true
